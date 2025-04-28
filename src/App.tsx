@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 
 import TodoItem from "./components/TodoItem";
+import { Todo } from "./types/components";
 
-type Todo = {
-  id: number;
-  title: string;
-};
+
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);

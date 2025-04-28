@@ -1,9 +1,6 @@
 import React, { useState } from "react";
+import { Todo } from "../types/components";
 
-type Todo = {
-  id: number;
-  title: string;
-};
 
 type TodoItemProps = {
   todos: {
